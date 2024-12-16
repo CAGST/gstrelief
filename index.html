@@ -1,481 +1,733 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <title>GST Relief</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!--icon font css-->
-    <link rel="stylesheet" href="vendors/themify-icon/themify-icons.css">
-    <link rel="stylesheet" href="vendors/elagent/style.css">
-    <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
-    <link rel="stylesheet" href="vendors/animation/animate.css">
-    <link rel="stylesheet" href="vendors/owl-carousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendors/magnify-pop/magnific-popup.css">
-    <link rel="stylesheet" href="vendors/scroll/jquery.mCustomScrollbar.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>GST Relief</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
 </head>
 
-<body>
-    <div id="preloader">
-        <div id="ctn-preloader" class="ctn-preloader">
-            <div class="animation-preloader">
-                <div class="spinner"></div>
-                <div class="txt-loading">
-                    <span data-text-preloader="G" class="letters-loading">
-                        G
-                    </span>
-                    <span data-text-preloader="S" class="letters-loading">
-                        S
-                    </span>
-                    <span data-text-preloader="T" class="letters-loading">
-                        T
-                    </span>
-                    <span data-text-preloader="R" class="letters-loading">
-                        &nbsp;&nbsp;R
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        E
-                    </span>
-                    <span data-text-preloader="L" class="letters-loading">
-                        L
-                    </span>
-                    <span data-text-preloader="I" class="letters-loading">
-                        I
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        E
-                    </span>
-                    <span data-text-preloader="F" class="letters-loading">
-                        F
-                    </span>
-                </div>
-                <p class="text-center">Loading</p>
-            </div>
-            <div class="loader">
-                <div class="row">
-                    <div class="col-3 loader-section section-left">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-left">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-right">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-right">
-                        <div class="bg"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+
+        <h1 class="sitename">GST Relief</h1>
+        
+      </a>
+     
+      
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <a class="btn-getstarted" href="https://app.turia.in/login">Employee Login</a>
+      <a class="btn-getstarted" href="https://finance.turia.in/login">Client Login</a>
     </div>
-    <div class="body_wrapper">
-        <header class="header_area">
-            <nav class="navbar navbar-expand-lg menu_one menu_four">
-                <div class="container">
-                    <a class="navbar-brand sticky_logo" href="#"><img src="./img/logo.png" srcset="" alt="logo"><img
-                            src="./img/logo.png" srcset="" alt="GST Relief"></a>
-                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="menu_toggle">
-                            <span class="hamburger">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                            <span class="hamburger-cross">
-                                <span></span>
-                                <span></span>
-                            </span>
-                        </span>
-                    </button>
+  </header>
 
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                        <ul class="navbar-nav menu w_menu ms-auto me-auto">
-                            <li class="nav-item dropdown submenu mega_menu mega_menu_two">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                    Home
-                                </a>
+  <main class="main">
 
-                            </li>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
 
-                            <li class="nav-item dropdown submenu mega_menu mega_menu_two">
-                                <a class="nav-link dropdown-toggle" href="#our_services" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Services
-                                </a>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-                            </li>
-                            <li class="nav-item dropdown submenu mega_menu mega_menu_two">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+              <div class="company-badge mb-4">
+            
+                Working for your success
+              </div>
 
-                                <a class="nav-link dropdown-toggle" href="#about_us" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    About us
-                                </a>
+              <h1 class="mb-6">
+                Financial Insights for  <br>
+                <span class="accent-text">Smarter Decisions </span>
+              </h1>
 
-                            <li class="nav-item dropdown submenu mega_menu mega_menu_two">
-
-                                <a class="nav-link dropdown-toggle" href="#contact_us" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Contact us
-                                </a>
-
-                        </ul>
-                        </li>
-
-
-                        <a class="btn_get btn_hover hidden-sm hidden-xs" href="https://app.turia.in">Employee Login</a>
-                        <a class="btn_get btn_hover hidden-sm hidden-xs" href="https://finance.turia.in">Client Login</a>
-
-                    </div>
-                </div>
-            </nav>
-        </header>
-
-        <section class="breadcrumb_area">
-            <img class="breadcrumb_shap" src="img/breadcrumb/banner_bg.png" alt="">
-            <div class="container">
-                <div class="breadcrumb_content text-center">
-                    <h1 class="f_p f_700 f_size_50 w_color l_height50 mb_20">Financial Insights for Smarter Decisions
-                    </h1>
-                    <p class="f_400 w_color f_size_16 l_height26">We empower Companies and Individuals to achieve
+              <p class="mb-4 mb-md-5">
+                We empower Companies and Individuals to achieve
                         financial clarity with our tailored services, including bookkeeping support, accounting,
-                        business tax advisory, and dedicated controller and CFO solutions.</p>
-                </div>
+                        business tax advisory, and dedicated controller and CFO solutions.
+               
+              </p>
+
+            
             </div>
-        </section>
-        <section class="software_featured_area_three sec_pad" id="our_services">
-            <div class="container">
-                <h2 class="f_600 f_size_30 t_color3 text-center l_height40 mb_70">Our Services</h2>
-                <div class="row software_featured_info">
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="software_featured_item text-center mb_20">
-                            <div class="s_icon">
-                                <img src="img/home5/icon_shape.png" alt="">
-                                <img class="icon" src="img/home5/icon1.png" alt="">
-                            </div>
-                            <h3 class="f_600 t_color3">Bookkeeping & Accounting</h3>
-                            <p class="f_400 f_size_15 mb-30">We keep your financial records accurate and up-to-date with
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+              <img src="assets/img/illustration-1.webp" alt="Hero Image" class="img-fluid">
+
+            
+            </div>
+          </div>
+        </div>
+
+        <div class="row stats-row gy-4 mt-5" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-trophy"></i>
+              </div>
+              <div class="stat-content">
+                <h4>Register your company</h4>
+             
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-briefcase"></i>
+              </div>
+              <div class="stat-content">
+                <h4>Get Licenses </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-graph-up"></i>
+              </div>
+              <div class="stat-content">
+                <h4>Avail Virtual CFO Services</h4>
+             
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="bi bi-award"></i>
+              </div>
+              <div class="stat-content">
+                <h4>Grow Your Business</h4>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-center justify-content-between">
+
+          <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
+            <span class="about-meta">ABOUT US</span>
+            <h2 class="about-title">GST Relief</h2>
+            <p class="about-description">We provide expert accounting, income tax, GST, and
+              advisory services for over two decades. Our team of dedicated professionals brings
+              extensive experience and in-depth knowledge to every client engagement. We have proudly
+              served more than 100 clients across diverse industries, offering tailored solutions that
+              meet their unique business needs. 
+            <p class="about-description">Our commitment to excellence is reflected in our personalized approach, where we focus
+              on building long-term relationships with clients. We understand the complexities of
+              modern business and are equipped to handle everything from compliance to strategic tax
+              planning. With a strong focus on delivering quality service, we continue to be a trusted
+              partner for individuals, SMEs, and larger organizations seeking reliable financial
+              guidance.</p>
+
+            <div class="row feature-list-wrapper">
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> 30+ years of experience</li>
+                  <li><i class="bi bi-check-circle-fill"></i> More than 100 clients</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Startup Advisory</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Incorporation Service</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Licenses and Registration </li>
+                  <li><i class="bi bi-check-circle-fill"></i> Virtual CFO Service</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="info-wrapper">
+              <div class="row gy-4">
+                <div class="col-lg-5">
+                  <div class="profile d-flex align-items-center gap-3">
+                    <img src="assets/img/avatar-1.png" alt="CEO Profile" class="profile-image">
+                    <div>
+                      <h4 class="profile-name">Vamsi Rajesh</h4>
+                      <p class="profile-position">Partner</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="contact-info d-flex align-items-center gap-2">
+                    <i class="bi bi-telephone-fill"></i>
+                    <div>
+                      <p class="contact-label">Contact Us</p>
+                      <p class="contact-number">+91 99662 16315</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/about-5.webp" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="assets/img/about-2.webp" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+              <div class="experience-badge floating">
+                <h3>30+ <span>Years</span></h3>
+                <p>Of experience in Practice</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+
+
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Areas of Practice</h2>
+        <p>Comprehensive Audit and Advisory Solutions Under One Roof</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="d-flex justify-content-center">
+
+          <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+
+            <li class="nav-item">
+              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+                <h4>Bookkeeping & Accounting</h4>
+              </a>
+            </li><!-- End tab nav item -->
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+                <h4>Tax Advisory</h4>
+              </a><!-- End tab nav item -->
+
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+                  <h4>GST Advisory</h4>
+                </a><!-- End tab nav item -->
+
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
+                    <h4>Setting Up New Company</h4>
+                  </a><!-- End tab nav item -->
+
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-5">
+                      <h4>Litigation</h4>
+                    </a><!-- End tab nav item -->
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-6">
+                <h4>NRI Services</h4>
+              </a>
+            </li><!-- End tab nav item -->
+
+          </ul>
+
+        </div>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Bookkeeping & Accounting</h3>
+                <p class="fst-italic">
+                  We keep your financial records accurate and up-to-date with
                                 services like ongoing bookkeeping, accounts receivable and payable management, and
                                 month-end close processes. Let us handle the details so you can focus on your business
-                                growth.</p>
+                                growth. 
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>Sole Properitership</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Partnership Firm</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Limited Liability Partnership</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>One Person Company</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Private Limited </span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Trust and NGO</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-illustration-1.webp" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
 
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="software_featured_item text-center mb_20">
-                            <div class="s_icon">
-                                <img src="img/home5/icon_shape.png" alt="">
-                                <img class="icon" src="img/home5/icon2.png" alt="">
-                            </div>
-                            <h3 class="f_600 t_color3">Tax Advisory</h3>
-                            <p class="f_400 f_size_15 mb-30">We provide comprehensive TDS and Income Tax services in
-                                India, ensuring timely and accurate compliance. Our offerings include TDS return filing,
-                                deduction management, and advisory services to avoid penalties.</p>
+          <div class="tab-pane fade" id="features-tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Tax Advisory</h3>
+                <p class="fst-italic">
+                  We provide comprehensive TDS and Income Tax services in
+                                India, ensuring timely and accurate compliance.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>TDS Payment & Return Filing</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>TDS Deduction management</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>TDS advisory to avoid penalties</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-illustration-2.webp" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
 
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="software_featured_item text-center mb_20">
-                            <div class="s_icon">
-                                <img src="img/home5/icon_shape.png" alt="">
-                                <img class="icon" src="img/home5/icon3.png" alt="">
-                            </div>
-                            <h3 class="f_600 t_color3">GST Advisory</h3>
-                            <p class="f_400 f_size_15 mb-30">We provide comprehensive GST advisory services, including
-                                registration, return filing, and compliance support. Our expert guidance ensures
-                                accurate filings, input tax credit optimization, and penalty-free operations.</p>
+          <div class="tab-pane fade" id="features-tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>GST Advisory</h3>
+                <p class="fst-italic">
+                  We provide expert GST advisory services to simplify compliance and optimize tax efficiency.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>GST registration</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Return filing</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Compliance support</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Input tax credit optimisation</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Composition Scheme</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>GST Refund</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-illustration-2.webp" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
 
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="software_featured_item text-center mb_20">
-                            <div class="s_icon">
-                                <img src="img/home5/icon_shape.png" alt="">
-                                <img class="icon" src="img/home5/icon3.png" alt="">
-                            </div>
-                            <h3 class="f_600 t_color3">Setting Up New Company</h3>
-                            <p class="f_400 f_size_15 mb-30">We have supported hundreds of clients — from individuals
+          
+          <div class="tab-pane fade" id="features-tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Setting Up New Company</h3>
+                <p class="fst-italic">
+                  We have supported hundreds of clients — from individuals
                                 and proprietorships to firms, LLPs, and companies. This diverse experience has equipped
                                 us with deep knowledge and expertise across different entity types.</p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>Business Structure Consultation</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Name Reservation</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Drafting of Incorporation Documents</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>MCA registration</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Statutory Compliance</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Startup advisory</span></li>
+                </ul>
+              
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-illustration-3.webp" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
 
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="software_featured_item text-center mb_20">
-                            <div class="s_icon">
-                                <img src="img/home5/icon_shape.png" alt="">
-                                <img class="icon" src="img/home5/icon3.png" alt="">
-                            </div>
-                            <h3 class="f_600 t_color3">Litigation</h3>
-                            <p class="f_400 f_size_15 mb-30">We specialize in managing Income Tax and GST litigation,
+          
+          <div class="tab-pane fade" id="features-tab-5">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Litigation</h3>
+                <p class="fst-italic">
+                  We specialize in managing Income Tax and GST litigation,
                                 offering expert representation and tailored resolution strategies. Our goal is to
-                                navigate complex legal matters efficiently, ensuring favorable outcomes for our clients.
-                            </p>
+                                navigate complex legal matters efficiently, ensuring favorable outcomes for our clients.</p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>Legal Representation</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Proactive Case Management</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Drafting replies & appeals</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Dispute Resolution Mechanism</span></li>
+                </ul>
+              
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-illustration-3.webp" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
 
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="software_featured_item text-center mb_20">
-                            <div class="s_icon">
-                                <img src="img/home5/icon_shape.png" alt="">
-                                <img class="icon" src="img/home5/icon3.png" alt="">
-                            </div>
-                            <h3 class="f_600 t_color3">NRI Services</h3>
-                            <p class="f_400 f_size_15 mb-30">We offer services related to tax and TDS on property sales,
+          <div class="tab-pane fade" id="features-tab-6">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>NRI Services</h3>
+                <p class="fst-italic">
+                  We offer services related to tax and TDS on property sales,
                                 repatriation of funds, and tax on interest and rental income. Our expertise includes
-                                income tax filing, handling scrutiny notices, and tax planning for returning Indians.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                                income tax filing, handling scrutiny notices, and tax planning for returning Indians.</p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>Taxation Advisory for NRIs</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Income Tax Filing for NRIs</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Repatriation and Remittance Support</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Filing of Tax Returns for Foreign Income</span></li>
+                               </ul>
+              
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-illustration-3.webp" alt="" class="img-fluid">
+              </div>
             </div>
-        </section>
+          </div><!-- End tab content item -->
 
-        <section class="agency_service_area bg_color" id="about_us">
-            <div class="container">
-                <h2 class="f_size_30 f_600 t_color3 l_height40 text-center mb_90">About Us</h2>
-                <div class="row mb_30">
+        </div>
 
-                    <div class="col-lg-12 col-sm-12">
-                        <div class="p_service_item agency_service_item pl_20 pr_70">
-                            <div class="icon">
-                                <img src="img/home4/icon_shape3.png" alt="">
-                                <i class="ti-gallery"></i>
-                            </div>
+      </div>
 
-                            <p>Ajjarapu and Associates has been providing expert accounting, income tax, GST, and
-                                advisory services for over two decades. Our team of dedicated professionals brings
-                                extensive experience and in-depth knowledge to every client engagement. We have proudly
-                                served more than 100 clients across diverse industries, offering tailored solutions that
-                                meet their unique business needs.
-                            </p>
-                            <br>
-                            <p>
-                                Our commitment to excellence is reflected in our personalized approach, where we focus
-                                on building long-term relationships with clients. We understand the complexities of
-                                modern business and are equipped to handle everything from compliance to strategic tax
-                                planning. With a strong focus on delivering quality service, we continue to be a trusted
-                                partner for individuals, SMEs, and larger organizations seeking reliable financial
-                                guidance.
-                            </p>
+    </section><!-- /Features Section -->
 
-                        </div>
-                    </div>
-                </div>
+    <!-- Features Cards Section -->
+    <section id="features-cards" class="features-cards section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="feature-box orange">
+              <i class="bi bi-award"></i>
+              <h4>Incorporation</h4>
+              <p>We simplify company registration by handling structure selection, documentation, DIN/DSC, name reservation, and initial compliance to get your business started seamlessly.</p>
             </div>
-        </section>
+          </div><!-- End Feature Borx-->
 
-        <section class="service_details_area sec_pad">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="service_details_img">
-                            <img src="img/breadcrumb/service_details.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="service_details">
-                            <h2 class="f_p f_600 f_size_30 t_color3 l_height40 mb-30">Tech-Enabled solution for Quality
-                                Service.</h2>
-                            <p class="f_400 mb_50">We leverage advanced Practice Management Software to regulate and
-                                monitor every step of the assignment process. From creating client profiles to
-                                delivering final reports, we ensure that every task meets the highest standards of
-                                quality. Our tech-enabled approach includes a compliance tracker, automated reminders,
-                                and a user-friendly dashboard to help you easily track filing history and stay on top of
-                                deadlines.</p>
-                            <ul class="list-unstyled mb-30">
-                                <li><i class="ti-arrow-circle-right"></i>Compliance Reminders</li>
-                                <li><i class="ti-arrow-circle-right"></i>User-friendly Client Dashbaord</li>
-                                <li><i class="ti-arrow-circle-right"></i>Compliance Tracker</li>
-                                <li><i class="ti-arrow-circle-right"></i>Data integrity and security</li>
-                            </ul>
-
-                        </div>
-                    </div>
-                </div>
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="feature-box blue">
+              <i class="bi bi-patch-check"></i>
+              <h4>Licenses & Registrations</h4>
+              <p>We assist in obtaining essential licenses like GST Registration, Shop & Establishment License, Import Export Code (IEC), FSSAI License, EPF, and ESI to ensure your business operates smoothly and stays compliant.</p>
             </div>
-        </section>
+          </div><!-- End Feature Borx-->
 
-        <section class="contact_info_area sec_pad bg_color" id="contact_us">
-            <div class="container">
-                <div class="row">
-
-                    <h2 class="f_size_30 f_600 t_color3 l_height40 text-center mb_90">Contact Us</h2>
-
-
-                    <div class="col-lg-3 pr-0">
-                        <div class="contact_info_item">
-                            <h6 class="f_p f_size_20 t_color3 f_500 mb_20">Office Address</h6>
-                            <p class="f_400 f_size_15">43-5-32, behind Municipal School, Railway New Colony,
-                                Visakhapatnam, Andhra Pradesh 530016</p>
-                        </div>
-                        <div class="contact_info_item">
-                            <h6 class="f_p f_size_20 t_color3 f_500 mb_20">Contact Info</h6>
-                            <p class="f_400 f_size_15"><span class="f_400 t_color3">Phone:</span> <a
-                                    href="tel:3024437488">+91 99662 16315</a></p>
-                            <p class="f_400 f_size_15"><span class="f_400 t_color3">Email:</span> <a
-                                    href="mailto:gstrelief@gmail.com">gstrelief@gmail.com</a></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 offset-lg-1">
-                        <div class="mapbox">
-                            <div id="mapBox" class="row m0" data-lat="17.7292089" data-lon="83.2962227" data-zoom="10"
-                                data-info="43-5-32, behind Municipal School, Railway New Colony, Visakhapatnam, Andhra Pradesh 530016"
-                                data-mlat="17.7292089" data-mlon="83.2962227">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact_form">
-                    <h2 class="f_p f_size_22 t_color3 f_600 l_height28 mt_100 mb_40">Leave a Message</h2>
-                    <form action="contact_process.php" class="contact_form_box" method="post" id="contactForm"
-                        novalidate="novalidate">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="form-group text_box">
-                                    <input type="text" id="name" name="name" placeholder="Your Name">
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group text_box">
-                                    <input type="text" name="email" id="email" placeholder="Your Email">
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="form-group text_box">
-                                    <input type="text" id="subject" name="subject" placeholder="Subject">
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="form-group text_box">
-                                    <textarea name="message" id="message" cols="30" rows="10"
-                                        placeholder="Enter Your Message . . ."></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn_three">Send Message</button>
-                    </form>
-                    <div id="success">Your message succesfully sent!</div>
-                    <div id="error">Opps! There is something wrong. Please try again</div>
-                </div>
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="feature-box green">
+              <i class="bi bi-sunrise"></i>
+              <h4>Accounting records</h4>
+              <p>Accurate and timely bookkeeping to manage your financial records, track expenses, and ensure compliance — giving you a clear picture of your business’s financial health.</p>
             </div>
-        </section>
+          </div><!-- End Feature Borx-->
 
-
-        <footer class="footer_area footer_area_four f_bg">
-            <div class="footer_top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6">
-                            <div class="f_widget company_widget">
-                                <a href="index.html" class="f-logo"><img src="./img/logo-transparent.png" srcset=""
-                                        alt="GST Relief"></a>
-                                <div class="widget-wrap">
-                                    <p class="f_400 f_p f_size_15 mb-0 l_height34"><span>Email:</span> <a
-                                            href="mailto:gstrelief@gmail.com" class="f_400">gstrelief@gmail.com</a></p>
-                                    <p class="f_400 f_p f_size_15 mb-0 l_height34"><span>Phone:</span> <a
-                                            href="tel:948256347968" class="f_400">+91 99662 16315</a></p>
-                                </div>
-                                <form action="#" class="f_subscribe mailchimp" method="post">
-                                    <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
-                                    <button class="btn btn-submit" type="submit"><i class="ti-arrow-right"></i></button>
-                                    <p class="mchimp-errmessage" style="display: none;"></p>
-                                    <p class="mchimp-sucmessage" style="display: none;"></p>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="f_widget about-widget pl_40">
-                                <h3 class="f-title f_600 t_color f_size_18 mb_40">Areas of Practice</h3>
-                                <ul class="list-unstyled f_list">
-                                    <li><a href="#">Income Tax</a></li>
-                                    <li><a href="#">GST</a></li>
-                                    <li><a href="#">Book Keeping</a></li>
-                                    <li><a href="#">Virtual CFO Services</a></li>
-                                    <li><a href="#">Litigation</a></li>
-
-
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="f_widget about-widget">
-                                <h3 class="f-title f_600 t_color f_size_18 mb_40">Quick Links</h3>
-                                <ul class="list-unstyled f_list">
-                                    <li><a href="#">Goods & Service Tax</a></li>
-                                    <li><a href="#">Income Tax</a></li>
-                                    <li><a href="#"> MCA </a></li>
-
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="f_widget about-widget">
-                                <h3 class="f-title f_600 t_color f_size_18 mb_40">Terms of Use</h3>
-                                <ul class="list-unstyled f_list">
-                                    <li><a href="#">Terms and Conditions</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="feature-box red">
+              <i class="bi bi-shield-check"></i>
+              <h4>Virtual CFO Servies</h4>
+              <p>Expert financial guidance on a monthly basis, including strategic planning, cash flow management, compliance oversight, and performance reporting — all tailored to drive growth and streamline operations.</p>
             </div>
-            <div class="footer_bottom">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4 col-md-5 col-sm-6">
-                            <p class="mb-0 f_400">Copyright © 2025 <a href="">Ajjarapu Associates</a></p>
-                        </div>
+          </div><!-- End Feature Borx-->
 
-                        <div class="col-lg-5 col-md-5 col-sm-6 text-end">
-                            <p class="mb-0 f_400 text-end">Powered by <a href="https://turia.in/">Turia</a> Practice Management Software</p>
-                        </div>
+        </div>
 
-                    </div>
+      </div>
+
+    </section><!-- /Features Cards Section -->
+
+    <!-- Features 2 Section -->
+    <section id="features-2" class="features-2 section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Client Dashboard </h2>
+        <p>Access a comprehensive dashboard that tracks all your compliance history, providing real-time updates, reminders, and easy access to past filings to ensure you stay on top of all regulatory requirements.</p>
+      </div><!-- End Section Title -->
+
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+
+    
+          <div class="col-lg-4">
+
+            <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="200">
+              <div class="d-flex align-items-center justify-content-end gap-4">
+                <div class="feature-content">
+                  <h3>Compliance Calendar</h3>
+                  <p>Stay organized with our Compliance Calendar, which tracks all important filing dates, deadlines, and regulatory requirements, ensuring your business never misses a compliance step.</p>
                 </div>
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-display"></i>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+            <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="300">
+              <div class="d-flex align-items-center justify-content-end gap-4">
+                <div class="feature-content">
+                  <h3> Compliance Management System</h3>
+                  <p>Receive timely alerts and notifications for upcoming compliance deadlines, filings, and regulatory requirements, helping you stay proactive and avoid penalties.</p>
+                </div>
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-feather"></i>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+          </div>
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="phone-mockup text-center">
+              <img src="assets/img/phone-app-screen.png" alt="Phone Mockup" class="img-fluid">
             </div>
-        </footer>
+          </div><!-- End Phone Mockup -->
+
+          <div class="col-lg-4">
+
+            <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="200">
+              <div class="d-flex align-items-center gap-4">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-code-square"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Client Dashboard</h3>
+                  <p>Access a comprehensive dashboard that tracks all your compliance history, providing real-time updates, reminders, and easy access to past filings to ensure you stay on top of all regulatory requirements.</p>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+            <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="300">
+              <div class="d-flex align-items-center gap-4">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-phone"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Centralized Filing Repository</h3>
+                  <p>Store and organize all compliance-related documents in a secure cloud-based repository. </p>
+                </div>
+              </div>
+            </div><!-- End .feature-item -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Features 2 Section -->
+
+ 
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+              <h3>Contact Info</h3>
+            <br>
+              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Office Address</h4>
+                  <p>43-5-32, behind Municipal School, </p>
+                  <p>Railway New Colony,</p>
+                  <p>Visakhapatnam,  </p>
+                  <p>Andhra Pradesh 530016</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Phone Number</h4>
+                  <p>+91 99662 16315</p>
+              
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email Address</h4>
+                  <p>gstrelief@gmail.com</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+              <h3>Get In Touch</h3>
+              <p>Kindly send your enquries and we will respond within 24 hours.</p>
+
+              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">GST Relief</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>43-5-32, behind Municipal School,</p>
+            <p>Railway New Colony,</p>
+            <p>Visakhapatnam,  </p>
+            <p>Andhra Pradesh 530016</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+91 99662 16315</span></p>
+            <p><strong>Email:</strong> <span>gstrelief@gmail.com</span></p>
+          </div>
+          
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="https://www.mca.gov.in/content/mca/global/en/home.html" target="_blank">Ministry of Corporate Affairs</a></li>
+            <li><a href="https://www.gst.gov.in/" target="_blank">Goods and Service Tax</a></li>
+            <li><a href="https://www.incometax.gov.in/iec/foportal/" target="_blank">Income Tax</a></li>
+            <li><a href="https://www.icai.org/" target="_blank">ICAI</a></li>
+            <li><a href="https://www.icsi.edu/home/" target="_blank">ICSI</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Incorporation</a></li>
+            <li><a href="#">Litigation</a></li>
+            <li><a href="#">Accounting</a></li>
+            <li><a href="#">Monthly Virtual CFO</a></li>
+            <li><a href="#">NRI Services</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>GST Relief</h4>
+          <ul>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+      </div>
     </div>
-    <!-- Optional JavaScript -->
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">GST Relief</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+    
+        Designed and Managed by <a href="https://turia.in/">Turia </a>
+      </div>
+    </div>
 
+  </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="vendors/wow/wow.min.js"></script>
-    <script src="vendors/sckroller/jquery.parallax-scroll.js"></script>
-    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-    <script src="vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="vendors/isotope/isotope-min.js"></script>
-    <script src="vendors/magnify-pop/jquery.magnific-popup.min.js"></script>
-    <script src="vendors/scroll/jquery.mCustomScrollbar.concat.min.js"></script>
-    <!--gmaps Js-->
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="js/gmaps.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <!-- contact js -->
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/contact.js"></script>
-    <script src="js/main.js"></script>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
